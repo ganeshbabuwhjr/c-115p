@@ -1,0 +1,20 @@
+h3{
+    font-size: 25px !important;
+    
+}
+body{
+    background: url('https://i.pinimg.com/originals/bd/1f/58/bd1f587613b2105c538bf1b9bba698b6.gif');
+}
+
+.btn-danger:hover{
+    background-color: blue;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 60px pink;}
+        to{box-shadow: 1px 1px 60px orange;}
+    }
